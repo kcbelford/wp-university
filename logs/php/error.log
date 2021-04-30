@@ -1,0 +1,16 @@
+[30-Apr-2021 13:07:15 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/kbelford/Local Sites/fictional-university/app/public/wp-includes/update.php on line 384
+[30-Apr-2021 13:07:15 UTC] PHP Stack trace:
+[30-Apr-2021 13:07:15 UTC] PHP   1. {main}() /Users/kbelford/Local Sites/fictional-university/app/public/wp-cron.php:0
+[30-Apr-2021 13:07:15 UTC] PHP   2. do_action_ref_array() /Users/kbelford/Local Sites/fictional-university/app/public/wp-cron.php:133
+[30-Apr-2021 13:07:15 UTC] PHP   3. WP_Hook->do_action() /Users/kbelford/Local Sites/fictional-university/app/public/wp-includes/plugin.php:531
+[30-Apr-2021 13:07:15 UTC] PHP   4. WP_Hook->apply_filters() /Users/kbelford/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:310
+[30-Apr-2021 13:07:15 UTC] PHP   5. wp_update_plugins() /Users/kbelford/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:286
+[30-Apr-2021 13:07:15 UTC] PHP   6. trigger_error() /Users/kbelford/Local Sites/fictional-university/app/public/wp-includes/update.php:384
+[30-Apr-2021 13:07:35 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/kbelford/Local Sites/fictional-university/app/public/wp-includes/update.php on line 569
+[30-Apr-2021 13:07:35 UTC] PHP Stack trace:
+[30-Apr-2021 13:07:35 UTC] PHP   1. {main}() /Users/kbelford/Local Sites/fictional-university/app/public/wp-cron.php:0
+[30-Apr-2021 13:07:35 UTC] PHP   2. do_action_ref_array() /Users/kbelford/Local Sites/fictional-university/app/public/wp-cron.php:133
+[30-Apr-2021 13:07:35 UTC] PHP   3. WP_Hook->do_action() /Users/kbelford/Local Sites/fictional-university/app/public/wp-includes/plugin.php:531
+[30-Apr-2021 13:07:35 UTC] PHP   4. WP_Hook->apply_filters() /Users/kbelford/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:310
+[30-Apr-2021 13:07:35 UTC] PHP   5. wp_update_themes() /Users/kbelford/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:286
+[30-Apr-2021 13:07:35 UTC] PHP   6. trigger_error() /Users/kbelford/Local Sites/fictional-university/app/public/wp-includes/update.php:569
